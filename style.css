@@ -2,6 +2,204 @@
 {
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 70px;
+	/*background: white;*/
 }
+
+body{
+	font-family: sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: rgb(103, 152, 224);
+	overflow: hidden;
+	z-index: 1;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	color: #ebf1f1dc;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: rgb(190, 219, 218);
+	color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+	background-color: #4CAF50;
+	color: rgb(201, 212, 160);
+  }
+
+  #sidelogo
+  {
+	width: 70px;
+	height: 50px;
+  }
+  
+  #mainlogo
+  {
+	width: 250px;
+	height: 200px;	
+  }
+  .aligncenter {
+    text-align: center;
+}
+
+  #about
+  {
+	text-align: center
+  }
+
+  #grid1about
+  {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 50px;
+	background-color: #ece2b3;
+  }
+  #grid1about > div {
+	background-color: #ece2b3;
+	text-align: center;
+	font-size: 30px;
+  }
+  #about_img
+  {
+	width: 200px;
+	height: 300px;
+  }
+  #grid2about
+  {
+	display: grid;
+	grid-template-columns: 10% 80%;
+	padding: 100px;
+	background-color: #ece2b3;
+  }
+
+  #grid2about > div {
+	background-color: #ece2b3;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 20px;
+  }
+  #about_1
+  {
+	width: 90px;
+	height: 70px;
+  }
+  #about_2
+  {
+	width: 90px;
+	height: 65px;
+  }
+  #about_3
+  {
+	width: 70px;
+	height: 90px;
+  }  
+  #about_4
+  {
+	width: 100px;
+	height: 80px;
+  }
+  #about_5
+  {
+	width: 100px;
+	height: 80px;
+  }
+  #about_6
+  {
+	width: 90px;
+	height: 80px;
+  }
+
+
+  #photos
+  {
+	text-align: center
+  }
+
+  ::-webkit-scrollbar {
+	width: 10px;
+	height: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: grey; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(105, 103, 103); 
+  }
+ 
+  .grid-container{
+	display: flex;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+	scrollbar-width: none;
+  }
+
+  .image{
+	width: 300px; height: 300px;
+  }
+
+  .img-div{
+	  margin: 3%;
+  }
+ 
+  /*.image:hover{
+	  width: 100%;
+	  height: 100%;
+  }*/
+  /*.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:100%;
+    height:100%;
+    display:block;
+    z-index:999;
+}*/
+
+
+  #playlist
+  {
+	text-align: center
+  }
+  #grid4playlist
+  {
+	display: grid;
+	grid-template-columns: auto auto;	
+	padding: 50px;
+	grid-gap: 10px;
+	background: linear-gradient(to right, rgb(238, 238, 231) 50%, #ece2b3);
+  }
+  #playlist-img{ width: 100px; height: 100px;}
+  
+.video-container{
+	margin-right: 30%;
+}
+
+.music-logo-container{
+	margin-bottom: 20%;
+}
+  
+
+ 
