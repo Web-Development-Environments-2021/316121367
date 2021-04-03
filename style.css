@@ -12,7 +12,7 @@ body{
 
 /* Add a black background color to the top navigation */
 .topnav {
-	background-color: rgb(103, 152, 224);
+	background-color: rgb(238, 179, 102);
 	overflow: hidden;
 	z-index: 1;
   }
@@ -28,7 +28,7 @@ body{
   
   /* Change the color of links on hover */
   .topnav a:hover {
-	background-color: rgb(190, 219, 218);
+	/* background-color: rgb(190, 219, 218); */
 	color: black;
   }
   
@@ -189,7 +189,7 @@ body{
 	grid-template-columns: auto auto;	
 	padding: 50px;
 	grid-gap: 10px;
-	background: linear-gradient(to right, rgb(238, 238, 231) 50%, #ece2b3);
+	background: linear-gradient(to right, rgb(238, 238, 231) 50%, #f1a738);
   }
   #playlist-img{ width: 100px; height: 100px;}
   
@@ -200,6 +200,40 @@ body{
 .music-logo-container{
 	margin-bottom: 20%;
 }
+
+
+
+
+#grid5like{
+	display: grid;
+	grid-template-columns: 50% 50%;	
+	margin-top: 20px;
+}
+#like-img{
+	height: 100%;
+	width: 100%;
+}
+#like-container{
+	display: grid;
+	/* grid-template-columns: auto;	 */
+	/* margin-top: 30px; */
+	margin-right: 150px;
+	/* padding: 10px; */
+}
   
 
+
+#grid6qr{
+	display: grid;
+	grid-template-columns: 50% 50%;	
+	margin-top: 20px;
+}
+#qr-logo-img{
+	height: 100%;
+	width: 100%;
+}
+/* #qr{
+	height: 50%;
+	width: 50%;
+} */
  
