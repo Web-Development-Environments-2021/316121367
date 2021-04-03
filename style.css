@@ -8,6 +8,7 @@
 
 body{
 	font-family: sans-serif;
+	/* background-image: url("./savta-img/logo savta.png") */
 }
 
 /* Add a black background color to the top navigation */
@@ -232,8 +233,19 @@ body{
 	height: 100%;
 	width: 100%;
 }
-/* #qr{
-	height: 50%;
-	width: 50%;
-} */
+
+
+
+
+#grid8mail{
+	background: url('./savta-img/mail/background-img.jpg') no-repeat center;
+	/* -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover; */
+	background-size: cover;
+	  
+	text-align: center;
+}
+
+
  
