@@ -8,7 +8,7 @@
 
 body{
 	font-family: sans-serif;
-	/* background-image: url("./savta-img/logo savta.png") */
+	text-align: center
 }
 
 /* Add a black background color to the top navigation */
@@ -62,14 +62,17 @@ body{
   #grid1about
   {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 40% 60%;
 	padding: 50px;
 	background-color: #ece2b3;
   }
   #grid1about > div {
 	background-color: #ece2b3;
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
+  }
+  #main_about{
+	  margin-top: 60px;
   }
   #about_img
   {
@@ -187,10 +190,11 @@ body{
   #grid4playlist
   {
 	display: grid;
-	grid-template-columns: auto auto;	
+	grid-template-columns: 40% 60%;	
 	padding: 50px;
 	grid-gap: 10px;
 	background: linear-gradient(to right, rgb(238, 238, 231) 50%, #f1a738);
+	font-size: 30px;
   }
   #playlist-img{ width: 100px; height: 100px;}
   
@@ -208,7 +212,7 @@ body{
 #grid5like{
 	display: grid;
 	grid-template-columns: 50% 50%;	
-	margin-top: 20px;
+	/* margin-top: 20px; */
 }
 #like-img{
 	height: 100%;
@@ -221,13 +225,15 @@ body{
 	margin-right: 150px;
 	/* padding: 10px; */
 }
+
+
   
 
 
 #grid6qr{
 	display: grid;
 	grid-template-columns: 50% 50%;	
-	margin-top: 20px;
+	/* margin-top: 20px; */
 }
 #qr-logo-img{
 	height: 100%;
@@ -236,7 +242,10 @@ body{
 
 
 
-
+#contact
+  {
+	text-align: center
+  }
 #grid8mail{
 	background: url('./savta-img/mail/background-img.jpg') no-repeat center;
 	/* -webkit-background-size: cover;
@@ -244,8 +253,12 @@ body{
   	-o-background-size: cover; */
 	background-size: cover;
 	  
-	text-align: center;
+	/* text-align: center; */
 }
+
+
+  
+  
 
 
  
