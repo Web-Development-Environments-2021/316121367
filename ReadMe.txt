@@ -1,4 +1,4 @@
-url : https://web-development-environments-2021.github.io/316121367/#
+github.io : https://web-development-environments-2021.github.io/316121367/#
 name: Eden Maximof
 id: 316121367
 I built this website about my grandmother, Simi Ben-Hayon. This website is not mobile adjustment, so please use it on your computer. 
