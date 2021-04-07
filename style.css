@@ -292,11 +292,32 @@ body{
 
 
 
+
+
+
+.grid-ans{
+	display: grid;
+	grid-template-columns: 10% auto auto auto;
+	/* padding: 5%;	 */
+	margin-right: 1%;
+	margin-left: 1%;
+	grid-gap: 3%;
+
+}
+.grid-ans > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	/* padding: 20px 0;
+	font-size: 30px; */
+  }
+
+
+
 #contact
   {
 	text-align: center
   }
-#grid8mail{
+#grid9mail{
 	
 	background: url('./savta-img/mail/background-img.jpg') no-repeat center;
 	/* -webkit-background-size: cover;
